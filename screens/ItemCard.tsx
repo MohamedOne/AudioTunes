@@ -9,7 +9,9 @@ const ItemCard = (props: any) => {
     const onPress = () => {
         dispatch({
             type: 'INSERT_PRESIDENT',
-            payload: props.data
+            payload: {
+                presidentObject: props.data
+            }
         })
     }
     return (

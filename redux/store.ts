@@ -1,4 +1,5 @@
 
 export const initialState = {
-    presidentObject : undefined
+    presidentObject: undefined,
+    hasPresident: false
 }

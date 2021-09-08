@@ -7,28 +7,28 @@ const MasterDetail = (props: any) => {
 
     const listOPresidents = [
         {
-            id: 101,
+            id: "101",
             name: "Abraham Lincoln",
             age: 57,
             party: "Republican"
         },
         {
-            id: 102,
+            id: "102",
             name: "Franklin Roosevelt",
             age: 63,
             party: "Democrat"
         },
         {
-            id: 103,
+            id: "103",
             name: "Herbert Hoover",
             age: 72,
             party: "Democrat"
         },
         {
-            id: 104,
+            id: "104",
             name: "Ronald Reagan",
             age: 59,
-            part: "Republican"
+            party: "Republican"
         }
     ]
 
